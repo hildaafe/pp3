@@ -1,19 +1,10 @@
 import os
 from os import environ
-import survey
 import dj_database_url
 from boto.mturk import qualification
 
 import otree.settings
 
-SESSION_CONFIGS = [
-    dict(
-        name='survey',
-        display_name="survey",
-        app_sequence=['survey'],
-        num_demo_participants=1,
-    ),
-]
 
 # if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs
 # in SESSION_CONFIGS, except those that explicitly override it.
