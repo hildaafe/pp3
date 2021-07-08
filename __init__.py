@@ -1,5 +1,4 @@
 from otree.api import *
-survey
 
 
 class Constants(BaseConstants):
