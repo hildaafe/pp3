@@ -1,8 +1,5 @@
 import os
 from os import environ
-import dj_database_url
-from boto.mturk import qualification
-
 import otree.settings
 
 
