@@ -2,7 +2,7 @@ from otree.api import *
 
 
 class Constants(BaseConstants):
-    name_in_url = 'survey'
+    name_in_url = 'mysurvey'
     players_per_group = None
     num_rounds = 1
 
